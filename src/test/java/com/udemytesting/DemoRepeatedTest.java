@@ -10,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
  */
 
 @DisplayName("Test to demonstrate repeated tests.")
+@Order(1)
 public class DemoRepeatedTest {
 
     Calculator calculator;

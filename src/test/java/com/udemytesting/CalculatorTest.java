@@ -12,6 +12,7 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayName("Test math operations in Calculator class.")
+@Order(3)
 class CalculatorTest {
     Calculator calculator;
     @BeforeAll

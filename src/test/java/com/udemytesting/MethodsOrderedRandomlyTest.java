@@ -1,9 +1,6 @@
 package com.udemytesting;
 
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.MethodOrderer;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.*;
 
 /**
  * @author nnkipkorir
@@ -11,6 +8,7 @@ import org.junit.jupiter.api.TestMethodOrder;
  */
 
 @DisplayName("Test to learn ordering of tests")
+@Order(4)
 //@TestMethodOrder(MethodOrderer.Random.class) //todo: randomly
 @TestMethodOrder(MethodOrderer.MethodName.class) //todo: order using method name ascending
 //@TestMethodOrder(MethodOrderer.MethodName.class) //todo: order using method name

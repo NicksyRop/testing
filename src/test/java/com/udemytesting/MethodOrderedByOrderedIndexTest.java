@@ -11,6 +11,7 @@ import org.junit.jupiter.api.TestMethodOrder;
  */
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class) //todo : for intergration test use ordered so tests can run in the manner we want i.e insert then fetch
+@Order(2)
 public class MethodOrderedByOrderedIndexTest {
 
     @Order(1) //todo : run first
